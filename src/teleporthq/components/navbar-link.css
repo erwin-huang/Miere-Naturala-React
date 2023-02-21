@@ -1,0 +1,22 @@
+.navbar-link-container {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar-link-products {
+  color: var(--dl-color-gray-white);
+}
+.navbar-link-contact {
+  color: var(--dl-color-gray-white);
+}
+
+@media(max-width: 991px) {
+  .navbar-link-root-class-name {
+    display: none;
+  }
+}
