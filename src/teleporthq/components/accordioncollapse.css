@@ -1,0 +1,23 @@
+.accordioncollapse-container {
+  gap: var(--dl-space-space-halfunit);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: flex-start;
+}
+.accordioncollapse-icon {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+
+
+
+

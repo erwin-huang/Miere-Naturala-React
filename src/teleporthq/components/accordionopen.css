@@ -1,0 +1,32 @@
+.accordionopen-container {
+  gap: var(--dl-space-space-halfunit);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: flex-start;
+}
+.accordionopen-title {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+}
+.accordionopen-icon {
+  fill: var(--dl-color-primary-500);
+  width: 24px;
+  height: 24px;
+}
+.accordionopen-accordiondescription {
+  color: var(--dl-color-gray-500);
+  padding-left: var(--dl-space-space-twounits);
+}
+
+

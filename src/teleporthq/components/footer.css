@@ -1,0 +1,89 @@
+.footer-footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-primary-500);
+}
+.footer-container {
+  gap: var(--dl-space-space-threeunits);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: 1200px;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: flex-end;
+  background-color: var(--dl-color-primary-500);
+}
+.footer-image {
+  width: auto;
+  object-fit: cover;
+}
+.footer-container1 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  max-width: 800px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-h1 {
+  color: var(--dl-color-gray-900);
+  text-align: left;
+  margin-bottom: var(--dl-space-space-unit);
+  letter-spacing: -5px;
+}
+.footer-containermobile {
+  width: 100%;
+  display: none;
+  grid-gap: var(--dl-space-space-halfunit);
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+}
+.footer-container4 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+.footer-container5 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-halfunit);
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media(max-width: 991px) {
+  .footer-image {
+    display: none;
+  }
+  .footer-container1 {
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .footer-container {
+    padding: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .footer-container {
+    padding: var(--dl-space-space-oneandhalfunits);
+  }
+  .footer-containermobile {
+    display: grid;
+  }
+  .footer-container5 {
+    display: none;
+  }
+}
