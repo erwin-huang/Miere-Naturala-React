@@ -6,7 +6,7 @@ import Navbar from '../components/navbar'
 import FeaturesDetail from '../components/features-detail'
 import ProductDetails from '../components/product-details'
 import PrimaryButton from '../components/primary-button'
-import CheckList from '../components/check-list'
+import CheckList from '../../../components/check-list'
 import './home.css'
 
 const Home = (props) => {
