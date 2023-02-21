@@ -1,0 +1,17 @@
+.primary-button-container {
+  display: flex;
+  position: relative;
+}
+.primary-button-button {
+  background-color: #ff4d4d;
+}
+
+
+.primary-button-root-class-name2 {
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+}
+.primary-button-root-class-name3 {
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+}

@@ -1,0 +1,40 @@
+.features-detail-container {
+  gap: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.features-detail-image {
+  width: var(--dl-size-size-small);
+  align-self: flex-start;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+.features-detail-text {
+  align-self: flex-start;
+  margin-bottom: 4px;
+}
+.features-detail-text1 {
+  color: var(--dl-color-gray-600);
+  align-self: flex-start;
+}
+.features-detail-root-class-name {
+  flex: 2;
+}
+.features-detail-root-class-name1 {
+  flex: 2;
+}
+
+
+.features-detail-root-class-name4 {
+  flex: 2;
+}
+.features-detail-root-class-name5 {
+  flex: 2;
+}
+
+
