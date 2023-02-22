@@ -13,6 +13,7 @@
   fill: var(--dl-color-link-link-500);
   width: var(--dl-size-size-xsmall);
   height: 24px;
+  flex-shrink: 0;
 }
 
 

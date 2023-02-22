@@ -353,6 +353,21 @@
   .home-container08 {
     align-self: center;
   }
+  .home-sectionlast {
+    flex-direction: column;
+  }
+  .home-faq {
+    flex: 1;
+  }
+  .home-container17 {
+    width: 100%;
+  }
+  .home-map {
+    width: 100%;
+  }
+  .home-div {
+    width: 100%;
+  }
 }
 @media(max-width: 767px) {
   .home-container01 {
@@ -392,7 +407,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .home-container07 {
-    padding: var(--dl-space-space-oneandhalfunits);
+    padding: var(--dl-space-space-twounits);
   }
   .home-containermobile {
     display: grid;
@@ -401,6 +416,6 @@
     display: none;
   }
   .home-sectionlast {
-    padding: var(--dl-space-space-oneandhalfunits);
+    padding: var(--dl-space-space-twounits);
   }
 }

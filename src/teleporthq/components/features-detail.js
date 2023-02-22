@@ -12,7 +12,7 @@ const FeaturesDetail = (props) => {
         src={props.image_src}
         className="features-detail-image"
       />
-      <h1 className="features-detail-text Subtitle2">{props.heading}</h1>
+      <h1 className="features-detail-text Subtitle2.bold">{props.heading}</h1>
       <span className="features-detail-text1 Body2">{props.text}</span>
     </div>
   )

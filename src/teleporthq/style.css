@@ -98,7 +98,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.Subtitle2 {
+.Subtitle2\.bold {
   font-size: 18px;
   font-family: Quicksand;
   font-weight: 700;
@@ -111,6 +111,15 @@
   font-family: Noto Serif Display;
   font-weight: 800;
   line-height: 64px;
+  text-transform: none;
+  text-decoration: none;
+}
+.Subtitle2 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Quicksand;
+  font-weight: 400;
+  line-height: 1.5;
   text-transform: none;
   text-decoration: none;
 }
@@ -163,6 +172,15 @@
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading6 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Noto Serif Display;
+  font-weight: 900;
+  line-height: 1.15;
   text-transform: none;
   text-decoration: none;
 }
